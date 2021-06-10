@@ -1,0 +1,70 @@
+body {
+	background-image:url(2.jpg);
+	height: 100vh;
+	width: 100%;
+	opacity:0.8;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.welcome{
+	position: absolute;
+	width: 650px;
+	height: 300px;
+    margin: 20% 30%;
+	text-align: center;
+}
+.welcome h3 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Staatliches', cursive;
+}
+.welcome h3 span {
+	color: #00fecb;
+}
+.welcome a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color:#fff;
+}
+.welcome a:hover {
+	background: #fff;
+	color: #333;
+}
+.pattern {
+    height: 40vh;
+    width: 100vw;
+  }
+ .navbar-nav li a ,
+ .navbar-header a{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+  }
+  .navbar-nav li a:hover,
+  .navbar-nav li.active a,
+  .navbar-header a:hover{
+    color: #ffcb91 !important;
+    letter-spacing: 4px;
+    transform: translate(0, -2px);
+    background: transparent !important;
+  }
+  .nav,.navbar-brand{
+  font-family: 'Merriweather', serif;
+  font-weight:900;
+  
+  }
+  
+
+  
